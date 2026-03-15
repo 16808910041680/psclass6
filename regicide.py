@@ -33,6 +33,9 @@ if cont == 1:
 elif cont == 2:
     for i in range (7):
         print(drawcard())
-    
+        
+    firstboss = random.choice (suits)
+    print (f"The first boss is a Jack of {firstboss}!")
+    print ("Cards:")
 else: 
     print ("Please type a valid input.")
